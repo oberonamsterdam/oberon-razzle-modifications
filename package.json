@@ -1,12 +1,20 @@
 {
-  "name": "oberon-razzle-modifications",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "oberon-razzle-modifications",
+    "version": "1.0.0",
+    "description": "Utility package for razzle modifications, used by projects bootstrapped by create-oberon-app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "razzle",
+        "eslint",
+        "babel-polyfill"
+    ],
+    "author": "Jari Zwarts",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oberonamsterdam/oberon-razzle-modifications.git"
+    }
 }

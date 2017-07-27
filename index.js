@@ -1,6 +1,5 @@
 module.exports = function(useEslint, usePolyfill) {
     return function(config, options, webpack) {
-        // console.log(useEslint, usePolyfill, options, options.target);;
         if(useEslint && options.dev) {
             config.module.rules.unshift({
                 test: /\.(js|jsx)$/,
